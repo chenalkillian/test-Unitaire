@@ -1,0 +1,114 @@
+/* Style de base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Style de la barre de navigation */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+/* Style des sections */
+main {
+  padding: 20px;
+}
+
+.evenements {
+  margin-bottom: 40px;
+}
+
+.evenements h2 {
+  color: #007bff;
+}
+
+.evenements .cartes-evenement {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.carte-evenement {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.carte-evenement img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+}
+
+.contenu-carte {
+  padding: 20px;
+}
+
+.contenu-carte h3 {
+  margin-top: 0;
+}
+
+.contenu-carte p {
+  margin-bottom: 10px;
+}
+
+.contenu-carte a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contenu-carte button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contenu-carte button:hover {
+  background-color: #0056b3;
+}
+
+.reservation {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+}
